@@ -1,0 +1,28 @@
+.page {
+	font-family: Verdana, Geneva, sans-serif;
+	max-width: 800px;
+	margin: 60px auto;
+}
+.header {
+	text-align: center;
+}
+.site-name {
+	text-transform: uppercase;
+	color: #444;
+	margin-bottom: 0;
+}
+.site-description {
+	font-size: 18px;
+	margin-top: 0; 
+	color: #666;
+}
+.social-links__item {
+	color: #444;
+	padding: 0px 5px;
+}
+.social-links__item:hover {
+	color: #0081bc;
+}
+.social-links__item svg{
+	height: 30px;
+}
