@@ -1,28 +1,110 @@
+div {
+  box-sizing: border-box;
+}
+
 .page {
-	font-family: Verdana, Geneva, sans-serif;
-	max-width: 800px;
-	margin: 60px auto;
+  font-family: Verdana, Geneva, sans-serif;
+  max-width: 800px;
+  margin: 60px auto;
+  color: #666;
+  cursor: default;
 }
 .header {
-	text-align: center;
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #666;
 }
 .site-name {
-	text-transform: uppercase;
-	color: #444;
-	margin-bottom: 0;
+  text-transform: uppercase;
+  color: #444;
+  margin-bottom: 0;
 }
 .site-description {
-	font-size: 18px;
-	margin-top: 0; 
-	color: #666;
+  font-size: 18px;
+  margin-top: 0; 
 }
 .social-links__item {
-	color: #444;
-	padding: 0px 5px;
+  padding: 0px 5px;
 }
-.social-links__item:hover {
-	color: #0081bc;
+.portfolio {
+  padding: 0px 15px 15px 15px;
 }
-.social-links__item svg{
-	height: 30px;
+.project {
+  border: 1px dashed #636e72; 
+  display: -webkit-flex; 
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  padding: 15px;
+  justify-content: space-between;
+}
+.project__information-block {
+  width: 300px;
+}
+.project__image {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+.project__name {
+  margin: 0;
+  font-weight: bold;
+}
+.project__date {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-style: italic;
+}
+.project__btn {
+  display: block;
+  width: 100px;
+  margin: 10px auto; 
+  padding: 5px 0px;
+  text-align: center;
+  text-decoration: none;
+  color: #00b894;
+  font-weight: bold;
+  border: 1px solid #00b894;
+}
+.project__btn:hover {
+  background-color: #00b894;
+  color: #fff;
+  transition: 0.5s;
+}
+.project__description-block {
+  width: 420px;
+}
+.project__stack-item {
+  background-color: #666;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin: 5px;
+}
+.project__description{
+  margin: 0; 
+  line-height: 20px;
+}
+
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+}
+.icon_mail {
+  background-image: url("../img/mail.svg");
+}
+.icon_github {
+  background-image: url("../img/github.svg");
+}
+.icon_instagram {
+  background-image: url("../img/instagram.svg");
+}
+.icon_linkedin {
+  background-image: url("../img/linkedin.svg");
 }
