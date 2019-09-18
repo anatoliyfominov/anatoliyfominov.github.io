@@ -9,6 +9,7 @@ div {
   color: #666;
   cursor: default;
 }
+
 .header {
   text-align: center;
   padding-bottom: 15px;
@@ -26,6 +27,7 @@ div {
 .social-links__item {
   padding: 0px 5px;
 }
+
 .portfolio {
   padding: 0px 15px 15px 15px;
 }
@@ -77,16 +79,26 @@ div {
   width: 420px;
 }
 .project__stack-item {
-  background-color: #666;
+  background-color: #3498db;
   color: #fff;
   display: inline-block;
   padding: 5px 10px;
   font-size: 14px;
   margin: 5px;
 }
-.project__description{
+.project__stack-item_integration {
+  background-color: #e67e22;
+}
+.project__stack-item_bp {
+  background-color: #1abc9c;
+}
+.project__description {
   margin: 0; 
   line-height: 20px;
+}
+.project__company {
+    font-size: 14px;
+    margin: 5px 0 0 0;
 }
 
 .icon {

@@ -7,8 +7,8 @@
     
   <title>Anatoliy Fominov</title>
 
-  <link rel="stylesheet" type="text/css" href="/css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body class="page">
 
@@ -25,18 +25,215 @@
 
   <div class="portfolio">
     <h3 class="portfolio__title">Employment:</h3>
-      <div class="projects">
-      </div>
-    <h3 class="portfolio__title">Freelance:</h3>
-      <div class="projects">
-      </div>
-    <h3 class="portfolio__title">Pet Projects:</h3>
-      <div class="projects">
-      </div>
-    <h3 class="portfolio__title">Other:</h3>
-      <div class="projects">
-      </div>
-  </div>
+    <div class="projects">
 
+      <div class="project">
+        <div class="project__information-block">
+          <p class="project__name">Электронный документооборот подразделения УИТиС</p>
+          <p class="project__company">АО "Саянскхимпласт"</p>
+          <img class="project__image" src="img/nda.jpg">
+          <p class="project__date">2017-2019</p>
+          <div class="project__stack-block">
+            <span class="project__stack-item project__stack-item_bp">IDEF0</span>
+            <span class="project__stack-item project__stack-item_bp">BPMN </span>
+            <span class="project__stack-item">NetCat</span>
+            <span class="project__stack-item">Ext JS</span>
+            <span class="project__stack-item">T-SQL</span>
+            <span class="project__stack-item project__stack-item_integration">БОСС-Кадровик</span>
+            <span class="project__stack-item project__stack-item_integration">Active Directory</span>
+          </div>
+        </div>
+        <div class="project__description-block">
+          <p class="project__description">Подразделение УИТиС состоит из трёх отделов,
+          если кратко это - программисты, отдел поддержки и связисты.
+          <br>
+          <br>После предпроектного анализа и написания ТЗ, описал бизнес-модели в ноциях IDEF0 и BPMN. Связку
+          NetCat и Ext JS выбрал исходя из того что она использовалась в 90% web-проектов на предприятии и
+          в связи с этим имеются специалисты в штате, которые способны вносить правки во время моего отпуска и
+          в случае увольнения.
+          <br>
+          <br>Система разработана и внедрена, и позволяет:
+          <br>-вести учёт входящих документов (приказы, служебные записки и пр.);
+          <br>-вести учёт исходящих документов;
+          <br>-связывать документы и  формировать новые на основе существующих;
+          <br>-распределять документы в другие системы;
+          <br>-назначать работы, исполнителей, ответственных и дополнительно привлекаемых специалистов по документу;
+          <br>-составлять план работ на месяц/год;
+          <br>-составлять отчёт по работам на месяц/год;
+          <br>-формировать статистику по выполнению работ;
+          <br>-информировать заказчика о выполнении работ.
+          <br>
+          <br>Реализована сложная система статусов, статус имеют: сам документ, работы по документу,
+          работы по документу у каждого исполнителя, работы по документу у каждого ответсвенного, мероприятия
+          по работам и т.д.
+          <br>
+          <br>Формирование плана происходит в несколько этапов, в котором участвуют как сам
+          исполнитель и ответственный за исполнение, так и начальник отдела. Каждая работа оценивается
+          в человекочасах.
+          <br>
+          <br>При формировании отчётов данные о количестве рабочих часов каждого специалиста
+          берётся из БОСС-Кадровика. После чего считается выполнение плана в процентах,
+          учитывая процент выполнения каждой планируемой работы, работ вне плана, запросов
+          на сопровождение. В итоге процент уходит в KPI-систему.
+          <br>
+          <br>Авторизация в системе сквозная с использованием Active Directory. Все данные о заказчиках
+          берётся из БОСС-Кадровика. Планы, отчёты, сформированные акты, служебные записки и
+          приказы можно выгрузить в формате Excel, PDF.
+          </p>
+        </div>
+      </div>
+        
+      <div class="project">
+        <div class="project__information-block">
+          <p class="project__name">Раздел на внешнем сайте по продаже неликвидных товарно-материальных ценностей</p>
+          <p class="project__company">АО "Саянскхимпласт"</p>
+          <img class="project__image" src="img/nda.jpg">
+          <p class="project__date">2019</p>
+          <div class="project__stack-block">
+            <span class="project__stack-item">NetCat</span>
+            <span class="project__stack-item">MySQL</span>
+            <span class="project__stack-item">T-SQL</span>
+            <span class="project__stack-item project__stack-item_integration">БОСС-Корпорация</span>
+          </div>
+        </div>
+        <div class="project__description-block">
+          <p class="project__description">---</p>
+        </div>
+      </div>
+        
+      <div class="project">
+        <div class="project__information-block">
+          <p class="project__name">Учёт численности персонала для ГОиЧС</p>
+          <p class="project__company">АО "Саянскхимпласт"</p>
+          <img class="project__image" src="img/nda.jpg">
+          <p class="project__date">2018</p>
+          <div class="project__stack-block">
+            <span class="project__stack-item">NetCat</span>
+            <span class="project__stack-item">Ext JS</span>
+            <span class="project__stack-item">T-SQL</span>
+            <span class="project__stack-item project__stack-item_integration">БОСС-Кадровик</span>
+            <span class="project__stack-item project__stack-item_integration">Active Directory</span>
+            <span class="project__stack-item project__stack-item_integration">ForSec</span>
+          </div>
+        </div>
+        <div class="project__description-block">
+          <p class="project__description">---</p>
+        </div>
+      </div>
+        
+      <div class="project">
+        <div class="project__information-block">
+          <p class="project__name">Личный кабинет технологического присоединения</p>
+          <p class="project__company">АО "Саянскхимпласт"</p>
+          <img class="project__image" src="img/nda.jpg">
+          <p class="project__date">2017</p>
+          <div class="project__stack-block">
+            <span class="project__stack-item">PHP</span>
+            <span class="project__stack-item">jQuery</span>
+            <span class="project__stack-item">MySQL</span>
+          </div>
+        </div>
+        <div class="project__description-block">
+          <p class="project__description">---</p>
+        </div>
+      </div> 
+        
+      <div class="project">
+        <div class="project__information-block">
+          <p class="project__name">Система оценки подразделений</p>
+          <p class="project__company">АО "Саянскхимпласт"</p>
+          <img class="project__image" src="img/nda.jpg">
+          <p class="project__date">2017</p>
+          <div class="project__stack-block">
+            <span class="project__stack-item">NetCat</span>
+            <span class="project__stack-item">Ext JS</span>
+            <span class="project__stack-item">T-SQL</span>
+            <span class="project__stack-item project__stack-item_integration">БОСС-Кадровик</span>
+            <span class="project__stack-item project__stack-item_integration">Active Directory</span>
+          </div>
+        </div>
+        <div class="project__description-block">
+          <p class="project__description">---</p>
+        </div>
+      </div>
+        
+      <div class="project">
+        <div class="project__information-block">
+          <p class="project__name">Система учёта заявок в службу КОИР</p>
+          <p class="project__company">АО "Саянскхимпласт"</p>
+          <img class="project__image" src="img/nda.jpg">
+          <p class="project__date">2016</p>
+          <div class="project__stack-block">
+            <span class="project__stack-item">NetCat</span>
+            <span class="project__stack-item">Ext JS</span>
+            <span class="project__stack-item">T-SQL</span>
+            <span class="project__stack-item project__stack-item_integration">БОСС-Кадровик</span>
+            <span class="project__stack-item project__stack-item_integration">Active Directory</span>
+          </div>
+        </div>
+        <div class="project__description-block">
+          <p class="project__description">---</p>
+        </div>
+      </div>
+        
+      <div class="project">
+        <div class="project__information-block">
+          <p class="project__name">Система непрерывного совершенствования (Кайдзен)</p>
+          <p class="project__company">АО "Саянскхимпласт"</p>
+          <img class="project__image" src="img/nda.jpg">
+          <p class="project__date">2016</p>
+          <div class="project__stack-block">
+            <span class="project__stack-item">NetCat</span>
+            <span class="project__stack-item">Ext JS</span>
+            <span class="project__stack-item">T-SQL</span>
+            <span class="project__stack-item project__stack-item_integration">БОСС-Кадровик</span>
+            <span class="project__stack-item project__stack-item_integration">Active Directory</span>
+          </div>
+        </div>
+        <div class="project__description-block">
+          <p class="project__description">---</p>
+        </div>
+      </div>
+
+    </div>
+    <h3 class="portfolio__title">Freelance:</h3>
+    <div class="projects">
+
+      <div class="project">
+        <div class="project__information-block">
+          <p class="project__name">АИС учёта пациентов и их анализов</p>
+          <p class="project__company">ОГБУЗ "Саянская городская больница"</p>
+          <img class="project__image" src="img/nda.jpg">
+          <p class="project__date">2019</p>
+          <div class="project__stack-block">
+            <span class="project__stack-item">NetCat</span>
+            <span class="project__stack-item">Ext JS</span>
+            <span class="project__stack-item">MySQL</span>
+          </div>
+        </div>
+        <div class="project__description-block">
+          <p class="project__description">Клиент настоял на использовании NetCat. 
+          <br><br>
+          Разработанная система позволяет: 
+          <br>-вести учёт пациентов (прикреплённых к поликлинике, иногородних);
+          <br>-вести учёт анализов (маммографии, УЗИ, цитологии, флюорографии, PSA и CA 125);
+          <br>-контролировать прохождение анализов (например один раз в год флюорографию);
+          <br>-составлять отчёты (годовые, ежеквартальные, суммарные, по результатам) и выгружать их в формате Excel.
+          <br>
+          <br>Написана интеграция со сторонней системой прикрепления пациентов к поликлинике CLINIC, реализована возможность импорта пациентов из CSV, XML, DBF.
+          <br>
+          <br>Так же у каждого врача реализовано своё ФРМ (Терапевт, онколог, зав. поликлиникой и т.д.), терапевты могут работать только с пациентами своего участка.
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <h3 class="portfolio__title">Pet Projects:</h3>
+    <div class="projects">
+    </div>
+    <h3 class="portfolio__title">Other:</h3>
+    <div class="projects">
+    </div>      
+  </div>
 </body>
 </html>
