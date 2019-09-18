@@ -120,3 +120,16 @@ div {
 .icon_linkedin {
   background-image: url("../img/linkedin.svg");
 }
+
+@media only screen and (max-width: 805px) {
+  .project__information-block {
+    width: 100%;
+  }
+  .project__image {
+    max-width: 302px;
+  }
+  .project__description-block {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

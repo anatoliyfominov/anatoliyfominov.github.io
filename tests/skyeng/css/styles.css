@@ -159,7 +159,7 @@
   text-align: center;
 }
 
-@media (max-width: 1000px) and (min-width: 769px)  {
+@media (max-width: 1000px) and (min-width: 769px) {
   .tariffs .tariff-item {
     width: 33.3%;
   }
@@ -172,7 +172,7 @@
     width: 350px;
   }
 }
-@media only screen and (max-width: 399px)   {
+@media only screen and (max-width: 399px) {
   .page {
     padding: 100px 0px;
   }
