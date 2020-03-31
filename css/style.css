@@ -41,6 +41,21 @@ div {
   padding: 15px;
   justify-content: space-between;
 }
+.project_collapse .project__description{
+  height: 600px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.project__button-block {
+  text-align: center;
+  border: 1px solid #aab0b2;
+  padding: 5px;
+  color: #444;
+  background-color: #ecf0f1;
+  margin-top: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
 .project__information-block {
   width: 300px;
 }
@@ -97,8 +112,8 @@ div {
   line-height: 20px;
 }
 .project__company {
-    font-size: 14px;
-    margin: 5px 0 0 0;
+  font-size: 14px;
+  margin: 5px 0 0 0;
 }
 
 .icon {
